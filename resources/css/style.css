@@ -6,3 +6,32 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color:seashell;
+  opacity: 0.9;
+  margin: 10px;
+}
