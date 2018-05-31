@@ -1,3 +1,4 @@
+/*Body CSS*/
 body {
   background-color: black;
   font-family: Helvetica;
@@ -7,14 +8,16 @@ body {
   text-align: center;
 }
 
+/*Header CSS*/
 header {
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  height: 70px;
+  height: 69px;
   width: 100%;
   background-color: black;
   border-bottom: 1px solid seashell;
@@ -34,4 +37,56 @@ nav a {
   color:seashell;
   opacity: 0.9;
   margin: 10px;
+}
+
+/*Main CSS*/
+#main {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  opacity: 0.9;
+}
+
+#mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+#featured {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#pics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bar {
+  background-color: black;
+  width: 100%;
+  align-items: center;
+}
+
+.pic {
+  width: 300px;
+  margin: 10px;
+}
+
+.pic img {
+  height: 200px;
+}
+
+.pic h4 {
+  margin-top: 0;
 }
