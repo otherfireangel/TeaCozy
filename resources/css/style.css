@@ -123,3 +123,10 @@ nav a {
 #contact {
   height: 200px;
 }
+
+/*Footer*/
+#footer {
+  width: 99%;
+  text-align: left;
+  margin-left: 20px;
+}
